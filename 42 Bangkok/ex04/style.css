@@ -1,0 +1,37 @@
+body{
+    background-color: pink;
+}
+p{
+    text-align: center;
+    color:white ;
+    font-size: 150px;
+    font-weight: bold;
+}
+.Lazada{
+  
+   position: absolute;
+    width: 10px;
+    height: 10px;
+}
+.Shop{
+   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    font-size: 70px;
+}
+footer{
+    height: 5%;
+    width: 99%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    bottom: 500px;
+    font-family: monospace;
+    font-style: italic;
+    text-align: right;
+    padding-right: 100px;
+    font-size: 50px;
+}
