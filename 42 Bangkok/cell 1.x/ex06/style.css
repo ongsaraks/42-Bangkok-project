@@ -1,4 +1,5 @@
-table {
+
+      table {
     width: 100%;
     border-collapse: collapse;
   }
@@ -8,5 +9,4 @@ table {
     text-align: left;
     background-color:pink;
     font-size: 30px;
-    position: absolute;
   }
