@@ -1,49 +1,42 @@
-body {
-  margin: 0;
+body {  
   font-size: 3px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-align: right;
+  text-align: justify;
+  margin:0;
 }
 #Ongsa {
-  float: left;
+  float:left;
   color: white;
-  font-size: 50px;
-  margin: -15px;
- 
-  
+  font-size: 45px;
+  margin: -17px;
+  margin-right: 320px;
 }
 img {
   border-radius: 90%;
   margin-bottom:-15px;
   margin-right: 6px;
-  margin-top: -5px;
 }
 #navbar {
   overflow: hidden;
   background-color: #1d4f91;
   padding: 30px;
 }
-
 #navbar a {
   float: center;
   display: flexbox;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
+  text-align: justify;
+  padding:14px 16px;
   text-decoration: none;
   font-size: 30px;
 }
-
 .content {
   padding: 16px;
 }
-
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
+  position:absolute
 
+}
 .sticky + .content {
   padding-top: 60px;
 }
