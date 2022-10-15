@@ -1,23 +1,47 @@
-body {  
+body {
+  margin: 0;
   font-size: 3px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-align: justify;
-  margin:0;
+  text-align: right;
 }
+<<<<<<< HEAD
 .navbar {
+=======
+#Ongsa {
+  float: left;
+  color: white;
+  font-size: 50px;
+  margin: -15px;
+ 
+  
+}
+img {
+  border-radius: 90%;
+  margin-bottom:-15px;
+  margin-right: 6px;
+  margin-top: -5px;
+}
+#navbar {
+>>>>>>> parent of e72bf06 (center navbar)
   overflow: hidden;
   background-color: #1d4f91;
   padding: 30px;
 }
+<<<<<<< HEAD
 .Profile{
+=======
+
+#navbar a {
+>>>>>>> parent of e72bf06 (center navbar)
   float: center;
   display: flexbox;
   color: white;
-  text-align: justify;
-  padding:14px 16px;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 30px;
 }
+<<<<<<< HEAD
 #ICON {
   float:left;
   color: white;
@@ -30,14 +54,19 @@ img {
   margin-bottom:-15px;
   margin-right: 6px;
 }
+=======
+>>>>>>> parent of e72bf06 (center navbar)
 
 .content {
   padding: 16px;
 }
-.sticky {
-  position:absolute
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+
 .sticky + .content {
   padding-top: 60px;
 }
