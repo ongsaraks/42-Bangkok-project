@@ -3,44 +3,58 @@ body {
   font-size: 3px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: left;
+  
 }
 #navbar {
   overflow: hidden;
   background-color: #1d4f91;
   padding: 30px;
+  
 }
 #navbar a{
   float: center;
   display: flexbox;
   color: white;
-  text-align: center;
+  text-align: justify;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 30px;
+  
+
 }
-#Ongsa {
+#OngsaHOME {
   float:left;
   color: white;
   font-size: 45px;
   margin: -17px;
   margin-right: 310px;
+  
+}
+#iconF {
+  float:right;
+  color: white;
+  font-size: 45px;
+  margin: -17px;
+  margin-right: 300px;
+
 }
 img {
   border-radius: 90%;
   margin-bottom:-15px;
   margin-right: 6px;
+  
 }
 
-.content {
+ .content {
   padding: 16px;
 }
 
 .sticky {
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
 }
 
 .sticky + .content {
   padding-top: 60px;
-}
+} 
