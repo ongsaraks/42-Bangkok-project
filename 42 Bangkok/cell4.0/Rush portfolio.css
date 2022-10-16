@@ -1,67 +1,70 @@
 body {
   margin: 0;
-  font-size: 3px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-align: left;
+  background-color: #607EAA;
+  color: white;
   
 }
 #navbar {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   overflow: hidden;
   background-color: #1d4f91;
-  padding: 30px;
-  
-}
-#navbar a{
-  float: center;
-  display: flexbox;
-  color: white;
-  text-align: justify;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 30px;
-  
+  padding:30px;
+  position: sticky;
+  top: 0;
+  width: 100%;
 
 }
-#OngsaHOME {
-  float:left;
+.simply a{
+
+  font-size: 30px;
+  margin-left:40px;
   color: white;
-  font-size: 45px;
-  margin: -17px;
-  margin-right: 310px;
+  text-decoration: none;
+}
+.simply {
+ padding-left:280px;
+ display:inline-flex;
+ flex-wrap: nowrap; 
+}
+.icon{
+  margin-left: 200px;
+  margin-top: -15px;
+}
+ #OngsaHOME{
+  display: inline-flex;
+  flex-wrap: nowrap;
+  font-size: 30px;
+  flex-direction: row;
+  
   
 }
-#iconF {
-  float:right;
-  color: white;
-  font-size: 45px;
-  margin: -17px;
-  margin-right: 300px;
-  
-}
-#iconG {
-  float:right;
-  color: white;
-  font-size: 45px;
-  margin: -14px;
-  margin-right: -140px;
-}
-img {
+
+
+#navbar img {
   border-radius: 90%;
   margin-bottom:-15px;
   margin-right: 6px;
   
 }
+.About  {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ 
+ 
+}
+  
 
-.content {
-  padding: 16px;
+.About img {
+  border-radius: 500px;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+.About h1{
+flex-direction: column;
+align-self: center;
+padding-right: 50%;
+padding-bottom: 20%;
+ 
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-} 
