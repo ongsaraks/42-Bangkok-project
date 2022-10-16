@@ -1,0 +1,17 @@
+.cd {
+  display: flex;
+}
+.card,.card2,.card3,.card4 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 15%;
+ margin:65px;
+ margin-left: 100px;
+}
+
+.card:hover,.card2:hover,.card3:hover,.card4:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container,.container2,.container3,.container4 {
+  padding: 2px 16px;
+}
