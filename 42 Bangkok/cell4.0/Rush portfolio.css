@@ -1,61 +1,78 @@
 body {
   margin: 0;
-  background-color: #607EAA;
-  color:white; 
+  background-color: #607eaa;
+  color: white;
   width: 100%;
+}
+html {
+  scroll-behavior: smooth;
 }
 #navbar {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   overflow: hidden;
   background-color: #1d4f91;
-  padding:30px;
+  padding: 30px;
   position: sticky;
   top: 0;
-  
+
 }
-.simply a{
-  color:white;
+.simply a {
+  color: white;
   font-size: 30px;
   padding: 10px;
   text-decoration: none;
 }
 .simply {
- padding-left:280px;
- display:inline-flex;
- flex-wrap: nowrap; 
+  padding-left: 280px;
+  display: inline-flex;
+  flex-wrap: nowrap;
 }
-.icon{
+.icon {
   margin-left: 200px;
   margin-top: -15px;
+  display: inline-flex;
+  flex-wrap: nowrap;
 }
 
-.Ongsa{
+.Ongsa {
   display: inline-flex;
   flex-wrap: nowrap;
   font-size: 40px;
-  flex-direction: row; 
-} 
+  flex-direction: row;
+}
 #navbar img {
   border-radius: 90%;
-  margin-bottom:-15px;
-  margin-right: 6px; 
+  margin-bottom: -15px;
+  margin-right: 6px;
 }
-#About  {
- display: flex;
- flex-direction: row;
- justify-content: space-between;
-
+#About {
+  flex-direction: row;
+  justify-content: space-between;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  
 }
 #About img {
   border-radius: 500px;
   margin-left: 100px;
   margin-top: 150px;
 }
-#About h1{
+#About h1 {
   font-size: 55px;
-
-padding: 150px;
-
- 
+  padding: 150px;
 }
-
+#Education {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  margin-top: -200px;
+}
+#Education img {
+  border-radius: 500px;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+#Education h1 {
+  font-size: 55px;
+  padding: 150px;
+}
