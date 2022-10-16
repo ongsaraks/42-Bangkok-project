@@ -1,8 +1,7 @@
 body {
   margin: 0;
   background-color: #607EAA;
-  color: white;
-  
+  color:white; 
 }
 #navbar {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -11,14 +10,12 @@ body {
   padding:30px;
   position: sticky;
   top: 0;
-  width: 100%;
-
+  width: 96.9%;
 }
 .simply a{
-
+  color:white;
   font-size: 30px;
-  margin-left:40px;
-  color: white;
+  padding: 10px;
   text-decoration: none;
 }
 .simply {
@@ -30,41 +27,34 @@ body {
   margin-left: 200px;
   margin-top: -15px;
 }
- #OngsaHOME{
+
+.Ongsa{
   display: inline-flex;
   flex-wrap: nowrap;
-  font-size: 30px;
-  flex-direction: row;
-  
-  
-}
-
-
+  font-size: 40px;
+  flex-direction: row; 
+} 
 #navbar img {
   border-radius: 90%;
   margin-bottom:-15px;
-  margin-right: 6px;
-  
+  margin-right: 6px; 
 }
 .About  {
  display: flex;
  flex-direction: row;
  justify-content: space-between;
- 
- 
-}
-  
 
+}
 .About img {
   border-radius: 500px;
   margin-left: 100px;
   margin-top: 150px;
 }
 .About h1{
-flex-direction: column;
-align-self: center;
-padding-right: 50%;
-padding-bottom: 20%;
+  font-size: 55px;
+
+padding: 150px;
+
  
 }
 
